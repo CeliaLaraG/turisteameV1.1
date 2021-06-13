@@ -12,11 +12,10 @@
         :value="item"
 
         />
-
       </div>
+
     </section>
       <nuxt-child :key="$route.params.id"/>
-
   </div>
 
 
@@ -38,7 +37,7 @@ export default {
   //     articles: Article
   //   };
   // },
-
+   //añadir evento MARICARMEN
 
   computed: {
     isAuth() {
