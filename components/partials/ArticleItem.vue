@@ -1,6 +1,7 @@
 <template>
 
     <div class="columns ">
+      <!-- <nuxt-link :to="`articles/${value.slug}`"> -->
       <div class="card m-4">
           <div class=" column card-image">
             <figure class="image">
@@ -12,11 +13,10 @@
             <div class="card-header-title">
               <h1 class="title"
               >{{value.title}}</h1>
-                <!-- <p class="">{{ value.excerpt }}</p> -->
-                <!-- <p>{{ value.content }}</p> -->
             </div>
       </div>
-     <nuxt-child />
+      <!-- </nuxt-link> -->
+
     </div>
 
 
@@ -28,7 +28,8 @@ export default {
   name: "ArticleItem",
   props: {
     value: Object
-  }
+  },
+
  }
 </script>
 <style>

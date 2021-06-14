@@ -16,11 +16,6 @@ export default {
     MainNav,
     MainFooter,
   },
-  data() {
-    return {
-
-    };
-  },
   mounted(){
     // const token = localStorage.getItem('jwt-token')
     const token = this.$cookies.get('jwt-token')
