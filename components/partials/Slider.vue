@@ -7,8 +7,4 @@
         ></b-image>
   </div>
 </template>
-<style>
-b-image {
-  width: 100%;
-}
-</style>
+

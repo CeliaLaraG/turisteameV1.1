@@ -1,8 +1,8 @@
 
 <template>
-  <footer class="main-bg-navbar is-centered">
+  <footer class="main-bg-navbar">
 
-      <div class="navbar-brand is-centered">
+      <div class="navbar-brand">
         <nuxt-link class="navbar-item" to="/">
          <div>
           <img src="../assets/pictures/logo.png"/>

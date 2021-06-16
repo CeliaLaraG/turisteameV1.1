@@ -10,8 +10,8 @@
                 ratio="4by3"></b-image>
             </figure>
           </div>
-            <div class="card-header-title">
-              <h1 class="title"
+            <div class="card-header-title is-justify-content-center">
+              <h1 class="title is-4"
               >{{value.title}}</h1>
             </div>
       </div>
