@@ -1,12 +1,13 @@
 
 <template>
-  <footer class="main-bg-navbar">
+  <footer class="main-bg-navbar is-centered">
 
-      <div class="navbar-brand">
+      <div class="navbar-brand is-centered">
         <nuxt-link class="navbar-item" to="/">
-          <div class="subtitle is-light">
-          Turisteame
-            </div>
+         <div>
+          <img src="../assets/pictures/logo.png"/>
+
+          </div>
         </nuxt-link>
       </div>
 
