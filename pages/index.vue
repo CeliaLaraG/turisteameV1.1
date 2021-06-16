@@ -1,13 +1,12 @@
 
 <template>
-  <div class="home">
+  <div class="home container">
     <section class="hero">
       <Slider />
     </section>
-    <div class="columns is-multiline">
-          <div class="column is-12">
+    <div class=" is-flex is-flex-wrap-wrap is-align-items-center is-justify-content-center">
             <div
-              class="mt-5 is-flex is-align-items-center is-justify-content-center"
+            class="mt-5 "
             >
               <b-button
                 v-for="category in categories"
@@ -19,7 +18,6 @@
                 {{ category.title }}
               </b-button>
             </div>
-          </div>
         </div>
     <section class="is-multiline columns">
       <div class="column is-3" v-for="item in filteredElements" :key="item._id">
