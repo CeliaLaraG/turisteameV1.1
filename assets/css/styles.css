@@ -6,3 +6,7 @@
   color: azure;
 }
 
+.nav-item img {
+  max-height: 2rem;
+}
+

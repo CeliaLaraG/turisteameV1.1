@@ -7,9 +7,9 @@
     <div class="container">
       <div class="navbar-brand">
         <nuxt-link class="navbar-item" to="/">
-          <div class="subtitle is-light">
-          Turisteame
-            </div>
+          <div>
+          <img src="../assets/pictures/logo.png"/>
+          </div>
         </nuxt-link>
         <a
           aria-expanded="false"
